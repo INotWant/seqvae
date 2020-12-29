@@ -1,0 +1,43 @@
+batch_size=32,z_size=64,seq_len=64,emb_dim=64,vocab_size=5000,hidden_dim=32,dropout_keep_prob=0.75,free_bits=0,encoder_learning_rate=0.01,enc_rnn_size=[32, 32],residual_encoder=True,dencoder_learning_rate=0.01,compute_rewards_step=1,dec_update_rate=0.8,rollout_num=8,dis_learning_rate=0.0001,dis_train_freq=5,dis_filter_sizes=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 32, 48, 64],dis_num_filters=[100, 200, 200, 200, 200, 100, 100, 100, 100, 100, 100, 100, 160, 160]
+#########################################################################
+Start Training...
+epoch  0 kl_loss:  0.74641293 r_loss:  7.79879 nll:  9.752075
+epoch  5 kl_loss:  0.04045968 r_loss:  6.993922 nll:  8.657436
+epoch  10 kl_loss:  0.023434281 r_loss:  6.8268323 nll:  8.48437
+epoch  15 kl_loss:  0.050987683 r_loss:  6.7535973 nll:  8.436924
+epoch  20 kl_loss:  0.12806575 r_loss:  6.7121825 nll:  8.423088
+epoch  25 kl_loss:  0.11516396 r_loss:  6.6855054 nll:  8.426152
+epoch  30 kl_loss:  0.029670034 r_loss:  6.6669374 nll:  8.42404
+epoch  35 kl_loss:  0.043928754 r_loss:  6.6544237 nll:  8.4184675
+epoch  40 kl_loss:  0.030534552 r_loss:  6.645417 nll:  8.405891
+epoch  45 kl_loss:  0.022730384 r_loss:  6.637816 nll:  8.403326
+epoch  50 kl_loss:  0.040588014 r_loss:  6.631138 nll:  8.413576
+epoch  55 kl_loss:  0.022650061 r_loss:  6.626428 nll:  8.404234
+epoch  60 kl_loss:  0.05628663 r_loss:  6.6263256 nll:  8.41841
+epoch  65 kl_loss:  0.07966105 r_loss:  6.6221976 nll:  8.4009905
+epoch  70 kl_loss:  0.020996694 r_loss:  6.620785 nll:  8.409715
+epoch  75 kl_loss:  0.20620877 r_loss:  6.6221194 nll:  8.403834
+epoch  80 kl_loss:  0.02156228 r_loss:  6.6209545 nll:  8.417269
+epoch  85 kl_loss:  0.028995723 r_loss:  6.6196866 nll:  8.423143
+epoch  90 kl_loss:  0.01694713 r_loss:  6.620212 nll:  8.408982
+epoch  95 kl_loss:  0.02397097 r_loss:  6.6215444 nll:  8.423133
+epoch  100 kl_loss:  0.038850613 r_loss:  6.616722 nll:  8.405746
+epoch  105 kl_loss:  0.034934018 r_loss:  6.618335 nll:  8.41196
+epoch  110 kl_loss:  0.02370308 r_loss:  6.619761 nll:  8.423295
+epoch  115 kl_loss:  0.030294362 r_loss:  6.6185474 nll:  8.407263
+epoch  120 kl_loss:  0.101659596 r_loss:  6.6205335 nll:  8.422764
+epoch  125 kl_loss:  0.053451225 r_loss:  6.6231627 nll:  8.423765
+epoch  130 kl_loss:  0.10877295 r_loss:  6.6227794 nll:  8.407241
+epoch  135 kl_loss:  0.011234021 r_loss:  6.625737 nll:  8.434134
+epoch  140 kl_loss:  0.110535964 r_loss:  6.623363 nll:  8.426418
+epoch  145 kl_loss:  0.017969923 r_loss:  6.6214747 nll:  8.4252405
+epoch  150 kl_loss:  0.025727523 r_loss:  6.6246324 nll:  8.428936
+epoch  155 kl_loss:  0.06657189 r_loss:  6.625288 nll:  8.428133
+epoch  160 kl_loss:  0.028308516 r_loss:  6.628835 nll:  8.431888
+epoch  165 kl_loss:  0.051103372 r_loss:  6.628701 nll:  8.427503
+epoch  170 kl_loss:  0.017413398 r_loss:  6.6375146 nll:  8.433542
+epoch  175 kl_loss:  0.017542718 r_loss:  6.6373606 nll:  8.436989
+epoch  180 kl_loss:  0.034963585 r_loss:  6.6380167 nll:  8.427378
+epoch  185 kl_loss:  0.00804436 r_loss:  6.6474185 nll:  8.445223
+epoch  190 kl_loss:  0.025419233 r_loss:  6.6392236 nll:  8.439463
+epoch  195 kl_loss:  0.0029567461 r_loss:  6.6375723 nll:  8.425573

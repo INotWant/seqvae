@@ -1,0 +1,73 @@
+batch_size=32,z_size=64,seq_len=64,emb_dim=64,vocab_size=5000,hidden_dim=32,dropout_keep_prob=0.75,free_bits=0,encoder_learning_rate=0.01,enc_rnn_size=[32, 32],residual_encoder=True,dencoder_learning_rate=0.01,compute_rewards_step=1,dec_update_rate=0.8,rollout_num=8,dis_learning_rate=0.0001,dis_train_freq=5,dis_filter_sizes=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 32, 48, 64],dis_num_filters=[100, 200, 200, 200, 200, 100, 100, 100, 100, 100, 100, 100, 160, 160]
+Start pre-training...
+pre-train epoch  0 kl_loss:  0.74634755 r_loss:  7.7987905 nll:  9.752568
+pre-train epoch  5 kl_loss:  0.030504905 r_loss:  6.9942884 nll:  8.667837
+pre-train epoch  10 kl_loss:  0.04179805 r_loss:  6.826912 nll:  8.491474
+pre-train epoch  15 kl_loss:  0.09437313 r_loss:  6.754077 nll:  8.43582
+pre-train epoch  20 kl_loss:  0.031381894 r_loss:  6.7132273 nll:  8.427087
+pre-train epoch  25 kl_loss:  0.010653454 r_loss:  6.6864195 nll:  8.401702
+pre-train epoch  30 kl_loss:  0.04019708 r_loss:  6.668828 nll:  8.405443
+pre-train epoch  35 kl_loss:  0.40426603 r_loss:  6.656671 nll:  8.398127
+Start pre-training discriminator...
+#########################################################################
+Start Training...
+epoch:  0 kl_loss:  0.064621806 pg_loss:  87.59017 nll:  8.383796
+epoch:  1 kl_loss:  0.2579555 pg_loss:  31.014862 nll:  8.378392
+epoch:  2 kl_loss:  0.4469307 pg_loss:  69.538605 nll:  8.360711
+epoch:  3 kl_loss:  0.5385164 pg_loss:  32.396824 nll:  8.352966
+epoch:  4 kl_loss:  0.47420132 pg_loss:  19.40969 nll:  8.333995
+epoch:  5 kl_loss:  0.32950568 pg_loss:  11.599089 nll:  8.336156
+epoch:  6 kl_loss:  0.23404047 pg_loss:  12.013843 nll:  8.32847
+epoch:  7 kl_loss:  0.21767783 pg_loss:  10.5036545 nll:  8.318455
+epoch:  8 kl_loss:  0.31460726 pg_loss:  5.2506504 nll:  8.31239
+epoch:  9 kl_loss:  0.43379107 pg_loss:  9.5167675 nll:  8.300654
+epoch:  10 kl_loss:  0.47185028 pg_loss:  3.7852044 nll:  8.296767
+epoch:  11 kl_loss:  0.42969507 pg_loss:  6.9444933 nll:  8.290149
+epoch:  12 kl_loss:  0.33413857 pg_loss:  3.6967237 nll:  8.284544
+epoch:  13 kl_loss:  0.22761157 pg_loss:  2.1499062 nll:  8.282663
+epoch:  14 kl_loss:  0.16495481 pg_loss:  5.428162 nll:  8.280105
+epoch:  15 kl_loss:  0.15565407 pg_loss:  6.313888 nll:  8.2743435
+epoch:  16 kl_loss:  0.18039039 pg_loss:  4.805224 nll:  8.25815
+epoch:  17 kl_loss:  0.2389369 pg_loss:  0.5913572 nll:  8.252211
+epoch:  18 kl_loss:  0.27768886 pg_loss:  1.8366752 nll:  8.253927
+epoch:  19 kl_loss:  0.26058805 pg_loss:  1.8531427 nll:  8.24469
+epoch:  20 kl_loss:  0.19902143 pg_loss:  0.5244442 nll:  8.237729
+epoch:  21 kl_loss:  0.12935436 pg_loss:  0.7081296 nll:  8.239037
+epoch:  22 kl_loss:  0.09095168 pg_loss:  1.7533532 nll:  8.231409
+epoch:  23 kl_loss:  0.08731217 pg_loss:  4.174334 nll:  8.229625
+epoch:  24 kl_loss:  0.10204479 pg_loss:  1.2760341 nll:  8.229219
+epoch:  25 kl_loss:  0.11214613 pg_loss:  0.16075195 nll:  8.218486
+epoch:  26 kl_loss:  0.105968684 pg_loss:  0.77941644 nll:  8.223874
+epoch:  27 kl_loss:  0.08948474 pg_loss:  1.5811234 nll:  8.214108
+epoch:  28 kl_loss:  0.07339294 pg_loss:  0.91141593 nll:  8.214958
+epoch:  29 kl_loss:  0.06284684 pg_loss:  1.1162848 nll:  8.211949
+epoch:  30 kl_loss:  0.057746626 pg_loss:  0.6933559 nll:  8.206977
+epoch:  31 kl_loss:  0.055513524 pg_loss:  2.183485 nll:  8.204519
+epoch:  32 kl_loss:  0.053245056 pg_loss:  0.31876904 nll:  8.19511
+epoch:  33 kl_loss:  0.048404485 pg_loss:  0.025126785 nll:  8.19334
+epoch:  34 kl_loss:  0.041767783 pg_loss:  0.5953684 nll:  8.178269
+epoch:  35 kl_loss:  0.035358 pg_loss:  0.29808182 nll:  8.176926
+epoch:  36 kl_loss:  0.029298216 pg_loss:  1.9373237 nll:  8.184234
+epoch:  37 kl_loss:  0.034861024 pg_loss:  1.2037551 nll:  8.181022
+epoch:  38 kl_loss:  0.042824402 pg_loss:  2.446368 nll:  8.177322
+epoch:  39 kl_loss:  0.051101357 pg_loss:  0.19958012 nll:  8.181399
+epoch:  40 kl_loss:  0.05571583 pg_loss:  0.14542034 nll:  8.184907
+epoch:  41 kl_loss:  0.051747393 pg_loss:  0.03325189 nll:  8.188376
+epoch:  42 kl_loss:  0.040805712 pg_loss:  0.068384655 nll:  8.180876
+epoch:  43 kl_loss:  0.028735412 pg_loss:  1.3517215 nll:  8.182573
+epoch:  44 kl_loss:  0.020697594 pg_loss:  1.34487 nll:  8.189939
+epoch:  45 kl_loss:  0.019226236 pg_loss:  0.07442809 nll:  8.185953
+epoch:  46 kl_loss:  0.025028586 pg_loss:  1.3818929 nll:  8.187859
+epoch:  47 kl_loss:  0.030932466 pg_loss:  1.9511352 nll:  8.193362
+epoch:  48 kl_loss:  0.042094685 pg_loss:  0.06428426 nll:  8.185199
+epoch:  49 kl_loss:  0.08282265 pg_loss:  0.05633626 nll:  8.186295
+epoch:  50 kl_loss:  0.11890481 pg_loss:  29.305 nll:  8.1877365
+epoch:  51 kl_loss:  0.12546593 pg_loss:  0.114193134 nll:  8.189988
+epoch:  52 kl_loss:  0.10054959 pg_loss:  1.1045262 nll:  8.196675
+epoch:  53 kl_loss:  0.09991248 pg_loss:  76.98607 nll:  8.198105
+epoch:  54 kl_loss:  0.16534507 pg_loss:  0.34533477 nll:  8.202153
+epoch:  55 kl_loss:  0.23256904 pg_loss:  0.046159547 nll:  8.208016
+epoch:  56 kl_loss:  0.24978212 pg_loss:  6.3553004 nll:  8.208338
+epoch:  57 kl_loss:  0.20686162 pg_loss:  0.0016030658 nll:  8.210577
+epoch:  58 kl_loss:  0.13311198 pg_loss:  2.2259512 nll:  8.216333
+epoch:  59 kl_loss:  0.0698899 pg_loss:  0.43225777 nll:  8.219245

@@ -1,0 +1,437 @@
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From sequence_gan.py:18: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From sequence_gan.py:96: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From sequence_gan.py:98: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-12-18 16:32:45.983555: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-12-18 16:32:45.998853: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-18 16:32:45.999406: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:01:00.0
+2020-12-18 16:32:46.009237: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-12-18 16:32:46.043335: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2020-12-18 16:32:46.052490: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2020-12-18 16:32:46.068150: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2020-12-18 16:32:46.086226: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2020-12-18 16:32:46.096237: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2020-12-18 16:32:46.123029: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-12-18 16:32:46.123391: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-18 16:32:46.125133: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-18 16:32:46.126664: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-12-18 16:32:46.127285: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-12-18 16:32:46.161731: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3699850000 Hz
+2020-12-18 16:32:46.162607: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55aaf76ca9d0 executing computations on platform Host. Devices:
+2020-12-18 16:32:46.162649: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-12-18 16:32:46.162955: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-18 16:32:46.163940: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:01:00.0
+2020-12-18 16:32:46.163995: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-12-18 16:32:46.164026: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2020-12-18 16:32:46.164055: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2020-12-18 16:32:46.164083: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2020-12-18 16:32:46.164111: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2020-12-18 16:32:46.164139: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2020-12-18 16:32:46.164179: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-12-18 16:32:46.164279: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-18 16:32:46.165302: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-18 16:32:46.166244: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-12-18 16:32:46.166300: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-12-18 16:32:46.293965: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-12-18 16:32:46.293991: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-12-18 16:32:46.293996: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-12-18 16:32:46.294126: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-18 16:32:46.294487: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-18 16:32:46.294826: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-18 16:32:46.295144: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10249 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2020-12-18 16:32:46.296212: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55aafb065930 executing computations on platform CUDA. Devices:
+2020-12-18 16:32:46.296223: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+WARNING:tensorflow:From ../target_lstm.py:21: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+WARNING:tensorflow:From ../target_lstm.py:23: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From ../target_lstm.py:52: multinomial (from tensorflow.python.ops.random_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.random.categorical` instead.
+WARNING:tensorflow:From ../target_lstm.py:97: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From ../seqgan/generator.py:209: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From ../seqgan/discriminator.py:95: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From ../seqgan/discriminator.py:114: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From ../seqgan/discriminator.py:122: The name tf.nn.xw_plus_b is deprecated. Please use tf.compat.v1.nn.xw_plus_b instead.
+
+WARNING:tensorflow:From ../seqgan/discriminator.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2020-12-18 16:32:48.015760: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2020-12-18 16:32:48.599512: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2020-12-18 16:42:10.118469: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+Start pre-training...
+pre-train epoch  0 test_loss  9.802152
+pre-train epoch  5 test_loss  9.082635
+pre-train epoch  10 test_loss  8.933078
+pre-train epoch  15 test_loss  8.881825
+pre-train epoch  20 test_loss  8.852874
+pre-train epoch  25 test_loss  8.844116
+pre-train epoch  30 test_loss  8.8500395
+pre-train epoch  35 test_loss  8.841887
+pre-train epoch  40 test_loss  8.828422
+pre-train epoch  45 test_loss  8.82602
+pre-train epoch  50 test_loss  8.85636
+pre-train epoch  55 test_loss  8.837723
+pre-train epoch  60 test_loss  8.827671
+pre-train epoch  65 test_loss  8.835979
+pre-train epoch  70 test_loss  8.830871
+pre-train epoch  75 test_loss  8.829932
+pre-train epoch  80 test_loss  8.842763
+pre-train epoch  85 test_loss  8.842677
+pre-train epoch  90 test_loss  8.852578
+pre-train epoch  95 test_loss  8.84544
+pre-train epoch  100 test_loss  8.864961
+pre-train epoch  105 test_loss  8.837789
+pre-train epoch  110 test_loss  8.856994
+pre-train epoch  115 test_loss  8.84797
+Start pre-training discriminator...
+#########################################################################
+Start Adversarial Training...
+epoch:  0 nll:  8.739632
+epoch:  1 nll:  8.635291
+epoch:  2 nll:  8.82185
+epoch:  3 nll:  8.737049
+epoch:  4 nll:  8.70214
+epoch:  5 nll:  8.81463
+epoch:  6 nll:  8.731239
+epoch:  7 nll:  8.800353
+epoch:  8 nll:  8.757491
+epoch:  9 nll:  8.81023
+epoch:  10 nll:  8.837251
+epoch:  11 nll:  8.766406
+epoch:  12 nll:  8.763404
+epoch:  13 nll:  8.82717
+epoch:  14 nll:  8.810686
+epoch:  15 nll:  8.613113
+epoch:  16 nll:  8.72002
+epoch:  17 nll:  8.717378
+epoch:  18 nll:  8.608699
+epoch:  19 nll:  8.670116
+epoch:  20 nll:  8.748006
+epoch:  21 nll:  8.703713
+epoch:  22 nll:  8.798787
+epoch:  23 nll:  8.7544365
+epoch:  24 nll:  8.7675295
+epoch:  25 nll:  8.62456
+epoch:  26 nll:  8.619197
+epoch:  27 nll:  8.873183
+epoch:  28 nll:  8.765004
+epoch:  29 nll:  8.685971
+epoch:  30 nll:  8.707505
+epoch:  31 nll:  8.56684
+epoch:  32 nll:  8.693958
+epoch:  33 nll:  8.600917
+epoch:  34 nll:  8.659409
+epoch:  35 nll:  8.637886
+epoch:  36 nll:  8.6782465
+epoch:  37 nll:  8.666627
+epoch:  38 nll:  8.669374
+epoch:  39 nll:  8.802121
+epoch:  40 nll:  8.751922
+epoch:  41 nll:  8.62181
+epoch:  42 nll:  8.681594
+epoch:  43 nll:  8.713979
+epoch:  44 nll:  8.601981
+epoch:  45 nll:  8.628528
+epoch:  46 nll:  8.742265
+epoch:  47 nll:  8.612113
+epoch:  48 nll:  8.568016
+epoch:  49 nll:  8.569636
+epoch:  50 nll:  8.77388
+epoch:  51 nll:  8.626586
+epoch:  52 nll:  8.51319
+epoch:  53 nll:  8.671651
+epoch:  54 nll:  8.781018
+epoch:  55 nll:  8.513326
+epoch:  56 nll:  8.541898
+epoch:  57 nll:  8.778827
+epoch:  58 nll:  8.651462
+epoch:  59 nll:  8.657104
+epoch:  60 nll:  8.471061
+epoch:  61 nll:  8.732636
+epoch:  62 nll:  8.727288
+epoch:  63 nll:  8.599884
+epoch:  64 nll:  8.644862
+epoch:  65 nll:  8.680175
+epoch:  66 nll:  8.594399
+epoch:  67 nll:  8.48205
+epoch:  68 nll:  8.602349
+epoch:  69 nll:  8.679479
+epoch:  70 nll:  8.629044
+epoch:  71 nll:  8.631352
+epoch:  72 nll:  8.512524
+epoch:  73 nll:  8.723572
+epoch:  74 nll:  8.685706
+epoch:  75 nll:  8.749741
+epoch:  76 nll:  8.511516
+epoch:  77 nll:  8.590541
+epoch:  78 nll:  8.672812
+epoch:  79 nll:  8.643703
+epoch:  80 nll:  8.658054
+epoch:  81 nll:  8.614877
+epoch:  82 nll:  8.590954
+epoch:  83 nll:  8.697724
+epoch:  84 nll:  8.545983
+epoch:  85 nll:  8.604969
+epoch:  86 nll:  8.500092
+epoch:  87 nll:  8.417828
+epoch:  88 nll:  8.558598
+epoch:  89 nll:  8.558296
+epoch:  90 nll:  8.56001
+epoch:  91 nll:  8.605057
+epoch:  92 nll:  8.548867
+epoch:  93 nll:  8.442594
+epoch:  94 nll:  8.596881
+epoch:  95 nll:  8.57681
+epoch:  96 nll:  8.689762
+epoch:  97 nll:  8.523852
+epoch:  98 nll:  8.522289
+epoch:  99 nll:  8.390591
+epoch:  100 nll:  8.688235
+epoch:  101 nll:  8.5048685
+epoch:  102 nll:  8.574769
+epoch:  103 nll:  8.549381
+epoch:  104 nll:  8.526132
+epoch:  105 nll:  8.569909
+epoch:  106 nll:  8.633412
+epoch:  107 nll:  8.5831175
+epoch:  108 nll:  8.623196
+epoch:  109 nll:  8.528813
+epoch:  110 nll:  8.621749
+epoch:  111 nll:  8.560525
+epoch:  112 nll:  8.591484
+epoch:  113 nll:  8.399241
+epoch:  114 nll:  8.660155
+epoch:  115 nll:  8.548588
+epoch:  116 nll:  8.551507
+epoch:  117 nll:  8.496093
+epoch:  118 nll:  8.612674
+epoch:  119 nll:  8.639996
+epoch:  120 nll:  8.56921
+epoch:  121 nll:  8.566613
+epoch:  122 nll:  8.538883
+epoch:  123 nll:  8.729747
+epoch:  124 nll:  8.57179
+epoch:  125 nll:  8.538414
+epoch:  126 nll:  8.627491
+epoch:  127 nll:  8.581586
+epoch:  128 nll:  8.6184435
+epoch:  129 nll:  8.583917
+epoch:  130 nll:  8.628426
+epoch:  131 nll:  8.639876
+epoch:  132 nll:  8.506641
+epoch:  133 nll:  8.546823
+epoch:  134 nll:  8.569031
+epoch:  135 nll:  8.651198
+epoch:  136 nll:  8.4604225
+epoch:  137 nll:  8.652902
+epoch:  138 nll:  8.531414
+epoch:  139 nll:  8.640739
+epoch:  140 nll:  8.610316
+epoch:  141 nll:  8.521216
+epoch:  142 nll:  8.516841
+epoch:  143 nll:  8.520118
+epoch:  144 nll:  8.507999
+epoch:  145 nll:  8.593279
+epoch:  146 nll:  8.563745
+epoch:  147 nll:  8.5462675
+epoch:  148 nll:  8.547413
+epoch:  149 nll:  8.616399
+epoch:  150 nll:  8.6032505
+epoch:  151 nll:  8.686722
+epoch:  152 nll:  8.561042
+epoch:  153 nll:  8.675903
+epoch:  154 nll:  8.670327
+epoch:  155 nll:  8.541793
+epoch:  156 nll:  8.434438
+epoch:  157 nll:  8.529163
+epoch:  158 nll:  8.611674
+epoch:  159 nll:  8.667115
+epoch:  160 nll:  8.519703
+epoch:  161 nll:  8.6091
+epoch:  162 nll:  8.682776
+epoch:  163 nll:  8.539052
+epoch:  164 nll:  8.605329
+epoch:  165 nll:  8.512356
+epoch:  166 nll:  8.609501
+epoch:  167 nll:  8.477469
+epoch:  168 nll:  8.4411
+epoch:  169 nll:  8.419896
+epoch:  170 nll:  8.579516
+epoch:  171 nll:  8.522506
+epoch:  172 nll:  8.533608
+epoch:  173 nll:  8.498678
+epoch:  174 nll:  8.542116
+epoch:  175 nll:  8.534999
+epoch:  176 nll:  8.462605
+epoch:  177 nll:  8.544913
+epoch:  178 nll:  8.6107855
+epoch:  179 nll:  8.639065
+epoch:  180 nll:  8.559845
+epoch:  181 nll:  8.365436
+epoch:  182 nll:  8.662656
+epoch:  183 nll:  8.639306
+epoch:  184 nll:  8.539838
+epoch:  185 nll:  8.643613
+epoch:  186 nll:  8.613427
+epoch:  187 nll:  8.479917
+epoch:  188 nll:  8.550587
+epoch:  189 nll:  8.589356
+epoch:  190 nll:  8.517652
+epoch:  191 nll:  8.601919
+epoch:  192 nll:  8.548412
+epoch:  193 nll:  8.636737
+epoch:  194 nll:  8.527694
+epoch:  195 nll:  8.587909
+epoch:  196 nll:  8.491123
+epoch:  197 nll:  8.527207
+epoch:  198 nll:  8.500566
+epoch:  199 nll:  8.438426
+epoch:  200 nll:  8.561973
+epoch:  201 nll:  8.625682
+epoch:  202 nll:  8.618918
+epoch:  203 nll:  8.700488
+epoch:  204 nll:  8.565484
+epoch:  205 nll:  8.54691
+epoch:  206 nll:  8.492859
+epoch:  207 nll:  8.624218
+epoch:  208 nll:  8.587449
+epoch:  209 nll:  8.490405
+epoch:  210 nll:  8.554616
+epoch:  211 nll:  8.657234
+epoch:  212 nll:  8.737724
+epoch:  213 nll:  8.649058
+epoch:  214 nll:  8.668309
+epoch:  215 nll:  8.657588
+epoch:  216 nll:  8.454117
+epoch:  217 nll:  8.66217
+epoch:  218 nll:  8.629314
+epoch:  219 nll:  8.505607
+epoch:  220 nll:  8.5704565
+epoch:  221 nll:  8.68644
+epoch:  222 nll:  8.81279
+epoch:  223 nll:  8.731635
+epoch:  224 nll:  8.624374
+epoch:  225 nll:  8.726658
+epoch:  226 nll:  8.672857
+epoch:  227 nll:  8.652053
+epoch:  228 nll:  8.691692
+epoch:  229 nll:  8.62659
+epoch:  230 nll:  8.513778
+epoch:  231 nll:  8.76751
+epoch:  232 nll:  8.678014
+epoch:  233 nll:  8.615902
+epoch:  234 nll:  8.629544
+epoch:  235 nll:  8.722213
+epoch:  236 nll:  8.603004
+epoch:  237 nll:  8.72258
+epoch:  238 nll:  8.710163
+epoch:  239 nll:  8.7222185
+epoch:  240 nll:  8.664548
+epoch:  241 nll:  8.724068
+epoch:  242 nll:  8.667763
+epoch:  243 nll:  8.616679
+epoch:  244 nll:  8.633395
+epoch:  245 nll:  8.5296335
+epoch:  246 nll:  8.69006
+epoch:  247 nll:  8.6298485
+epoch:  248 nll:  8.562507
+epoch:  249 nll:  8.74831
+epoch:  250 nll:  8.612056
+epoch:  251 nll:  8.651969
+epoch:  252 nll:  8.607215
+epoch:  253 nll:  8.67508
+epoch:  254 nll:  8.682008
+epoch:  255 nll:  8.738025
+epoch:  256 nll:  8.650519
+epoch:  257 nll:  8.81673
+epoch:  258 nll:  8.639904
+epoch:  259 nll:  8.576844
+epoch:  260 nll:  8.689151
+epoch:  261 nll:  8.786841
+epoch:  262 nll:  8.7439165
+epoch:  263 nll:  8.901604
+epoch:  264 nll:  8.737353
+epoch:  265 nll:  8.591096
+epoch:  266 nll:  8.646588
+epoch:  267 nll:  8.730962
+epoch:  268 nll:  8.785373
+epoch:  269 nll:  8.759548
+epoch:  270 nll:  8.593251
+epoch:  271 nll:  8.647729
+epoch:  272 nll:  8.665023
+epoch:  273 nll:  8.569409
+epoch:  274 nll:  8.657712
+epoch:  275 nll:  8.752788
+epoch:  276 nll:  8.71264
+epoch:  277 nll:  8.613168
+epoch:  278 nll:  8.629816
+epoch:  279 nll:  8.722703
+epoch:  280 nll:  8.82395
+epoch:  281 nll:  8.704868
+epoch:  282 nll:  8.755302
+epoch:  283 nll:  8.761897
+epoch:  284 nll:  8.714466
+epoch:  285 nll:  8.704347
+epoch:  286 nll:  8.697869
+epoch:  287 nll:  8.732776
+epoch:  288 nll:  8.692681
+epoch:  289 nll:  8.702434
+epoch:  290 nll:  8.740497
+epoch:  291 nll:  8.620899
+epoch:  292 nll:  8.679207
+epoch:  293 nll:  8.653137
+epoch:  294 nll:  8.728587
+epoch:  295 nll:  8.760499
+epoch:  296 nll:  8.8080225
+epoch:  297 nll:  8.744563
+epoch:  298 nll:  8.586486
+epoch:  299 nll:  8.626066

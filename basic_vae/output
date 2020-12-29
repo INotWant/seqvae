@@ -1,0 +1,190 @@
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From vae.py:19: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From vae.py:100: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From vae.py:102: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-12-17 16:57:08.975570: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-12-17 16:57:08.989960: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-17 16:57:08.990278: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:01:00.0
+2020-12-17 16:57:08.990400: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-12-17 16:57:08.991501: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2020-12-17 16:57:08.992521: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2020-12-17 16:57:08.992678: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2020-12-17 16:57:08.993817: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2020-12-17 16:57:08.994450: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2020-12-17 16:57:08.996806: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-12-17 16:57:08.996882: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-17 16:57:08.997457: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-17 16:57:08.997844: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-12-17 16:57:08.998028: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-12-17 16:57:09.021701: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3699850000 Hz
+2020-12-17 16:57:09.022225: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b94cf77530 executing computations on platform Host. Devices:
+2020-12-17 16:57:09.022260: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-12-17 16:57:09.022419: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-17 16:57:09.022979: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:01:00.0
+2020-12-17 16:57:09.023010: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-12-17 16:57:09.023021: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2020-12-17 16:57:09.023031: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2020-12-17 16:57:09.023041: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2020-12-17 16:57:09.023051: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2020-12-17 16:57:09.023061: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2020-12-17 16:57:09.023077: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-12-17 16:57:09.023117: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-17 16:57:09.023428: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-17 16:57:09.023712: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-12-17 16:57:09.023733: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-12-17 16:57:09.137119: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-12-17 16:57:09.137146: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-12-17 16:57:09.137151: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-12-17 16:57:09.137292: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-17 16:57:09.137656: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-17 16:57:09.137993: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-12-17 16:57:09.138313: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10249 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2020-12-17 16:57:09.139509: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b94dc7e180 executing computations on platform CUDA. Devices:
+2020-12-17 16:57:09.139522: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+WARNING:tensorflow:From ../target_lstm.py:21: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+WARNING:tensorflow:From ../target_lstm.py:23: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From ../target_lstm.py:52: multinomial (from tensorflow.python.ops.random_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.random.categorical` instead.
+WARNING:tensorflow:From ../target_lstm.py:97: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From ../common/lstm_utils.py:45: MultiRNNCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.StackedRNNCells, and will be replaced by that in Tensorflow 2.0.
+WARNING:tensorflow:From /home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/contrib/rnn/python/ops/rnn.py:239: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+WARNING:tensorflow:From /home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/ops/rnn.py:464: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+WARNING:tensorflow:From /home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell.py:104: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/gaoting/anaconda3/envs/tmp/lib/python3.7/site-packages/tensorflow/python/ops/rnn.py:244: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From ../seq_vae_1/encoder.py:65: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From ../seq_vae_1/encoder.py:99: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2020-12-17 16:57:12.491830: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2020-12-17 16:57:13.139494: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+#########################################################################
+Start Training...
+epoch  0 kl_loss:  1.0960969 r_loss:  7.5947533 nll:  9.329239
+epoch  5 kl_loss:  0.31804845 r_loss:  6.4759665 nll:  8.92917
+epoch  10 kl_loss:  0.67682236 r_loss:  5.8021717 nll:  8.757537
+epoch  15 kl_loss:  0.114423804 r_loss:  5.3894997 nll:  8.712443
+epoch  20 kl_loss:  0.06564217 r_loss:  5.110375 nll:  8.673632
+epoch  25 kl_loss:  0.06556292 r_loss:  4.932218 nll:  8.6187105
+epoch  30 kl_loss:  0.05555026 r_loss:  4.804657 nll:  8.610145
+epoch  35 kl_loss:  0.010415056 r_loss:  4.6808176 nll:  8.584539
+epoch  40 kl_loss:  0.031951062 r_loss:  4.6361537 nll:  8.589803
+epoch  45 kl_loss:  0.09333061 r_loss:  4.5745215 nll:  8.580752
+epoch  50 kl_loss:  0.009006131 r_loss:  4.5236807 nll:  8.546201
+epoch  55 kl_loss:  0.043350596 r_loss:  4.485821 nll:  8.553375
+epoch  60 kl_loss:  0.046123717 r_loss:  4.4556727 nll:  8.554299
+epoch  65 kl_loss:  0.2134531 r_loss:  4.434393 nll:  8.547193
+epoch  70 kl_loss:  0.033514034 r_loss:  4.4146447 nll:  8.561035
+epoch  75 kl_loss:  0.01982059 r_loss:  4.370931 nll:  8.540538
+epoch  80 kl_loss:  0.0066363905 r_loss:  4.3828063 nll:  8.551012
+epoch  85 kl_loss:  0.029516278 r_loss:  4.3652763 nll:  8.533999
+epoch  90 kl_loss:  0.038575184 r_loss:  4.3584895 nll:  8.559874
+epoch  95 kl_loss:  0.0017391557 r_loss:  4.3357334 nll:  8.545329
+epoch  100 kl_loss:  0.0028214683 r_loss:  4.3651805 nll:  8.536687
+epoch  105 kl_loss:  0.0049904943 r_loss:  4.3368564 nll:  8.539709
+epoch  110 kl_loss:  0.038478725 r_loss:  4.351744 nll:  8.534544
+epoch  115 kl_loss:  0.005164781 r_loss:  4.3235097 nll:  8.523436
+epoch  120 kl_loss:  0.005745203 r_loss:  4.3253446 nll:  8.544072
+epoch  125 kl_loss:  0.025494566 r_loss:  4.3323483 nll:  8.552762
+epoch  130 kl_loss:  0.008260112 r_loss:  4.329333 nll:  8.537435
+epoch  135 kl_loss:  0.007501557 r_loss:  4.333388 nll:  8.550645
+epoch  140 kl_loss:  0.04181301 r_loss:  4.3092856 nll:  8.552678
+epoch  145 kl_loss:  0.02539671 r_loss:  4.347308 nll:  8.535742
+epoch  150 kl_loss:  0.023092616 r_loss:  4.3444643 nll:  8.546061
+epoch  155 kl_loss:  0.086034775 r_loss:  4.353541 nll:  8.538776
+epoch  160 kl_loss:  0.0057259384 r_loss:  4.3385115 nll:  8.53241
+epoch  165 kl_loss:  0.007893046 r_loss:  4.3343005 nll:  8.539514
+epoch  170 kl_loss:  0.00745321 r_loss:  4.3365774 nll:  8.55149
+epoch  175 kl_loss:  0.034200866 r_loss:  4.354022 nll:  8.531426
+epoch  180 kl_loss:  0.004192609 r_loss:  4.324863 nll:  8.531392
+epoch  185 kl_loss:  0.0074291383 r_loss:  4.332417 nll:  8.536294
+epoch  190 kl_loss:  0.0031198636 r_loss:  4.355006 nll:  8.541436
+epoch  195 kl_loss:  0.0014651468 r_loss:  4.3302536 nll:  8.559883
+epoch  200 kl_loss:  0.00841243 r_loss:  4.3545265 nll:  8.564707
+epoch  205 kl_loss:  0.017653111 r_loss:  4.3608947 nll:  8.56272
+epoch  210 kl_loss:  0.026721753 r_loss:  4.3648887 nll:  8.570519
+epoch  215 kl_loss:  0.022959808 r_loss:  4.3401675 nll:  8.573766
+epoch  220 kl_loss:  0.019130956 r_loss:  4.355625 nll:  8.585818
+epoch  225 kl_loss:  0.0005342728 r_loss:  4.360086 nll:  8.5487385
+epoch  230 kl_loss:  0.02355375 r_loss:  4.3390365 nll:  8.581061
+epoch  235 kl_loss:  0.037319925 r_loss:  4.3705893 nll:  8.545642
+epoch  240 kl_loss:  0.0019238981 r_loss:  4.3668356 nll:  8.539507
+epoch  245 kl_loss:  0.025607407 r_loss:  4.359692 nll:  8.575407
+epoch  250 kl_loss:  0.042099386 r_loss:  4.353922 nll:  8.562463
+epoch  255 kl_loss:  0.032655567 r_loss:  4.3461075 nll:  8.561783
+epoch  260 kl_loss:  0.040360905 r_loss:  4.371737 nll:  8.572104
+epoch  265 kl_loss:  0.014303865 r_loss:  4.3681464 nll:  8.548493
+epoch  270 kl_loss:  0.022477044 r_loss:  4.397997 nll:  8.572606
+epoch  275 kl_loss:  0.053952504 r_loss:  4.401643 nll:  8.586727
+epoch  280 kl_loss:  0.023144966 r_loss:  4.3739586 nll:  8.551178
+epoch  285 kl_loss:  0.028374497 r_loss:  4.3832607 nll:  8.565828
+epoch  290 kl_loss:  0.00064708205 r_loss:  4.355668 nll:  8.560579
+epoch  295 kl_loss:  0.018696483 r_loss:  4.3848596 nll:  8.589976
+epoch  300 kl_loss:  0.0036274435 r_loss:  4.4099326 nll:  8.558106
+epoch  305 kl_loss:  0.0048639295 r_loss:  4.380858 nll:  8.564297
+epoch  310 kl_loss:  0.015503468 r_loss:  4.400886 nll:  8.566394
+epoch  315 kl_loss:  0.011496866 r_loss:  4.407969 nll:  8.565676
+epoch  320 kl_loss:  0.008536499 r_loss:  4.402584 nll:  8.560791
+epoch  325 kl_loss:  0.01582962 r_loss:  4.400274 nll:  8.569525
+epoch  330 kl_loss:  0.013655174 r_loss:  4.410602 nll:  8.569334
+epoch  335 kl_loss:  0.06847227 r_loss:  4.4202843 nll:  8.563226
+epoch  340 kl_loss:  0.009157654 r_loss:  4.413081 nll:  8.578596
+epoch  345 kl_loss:  0.006337161 r_loss:  4.4253116 nll:  8.5771675
+epoch  350 kl_loss:  0.014381737 r_loss:  4.4201674 nll:  8.578659
+epoch  355 kl_loss:  0.013561182 r_loss:  4.413517 nll:  8.577382
+epoch  360 kl_loss:  7.822544e-07 r_loss:  4.4320292 nll:  8.60125
+epoch  365 kl_loss:  0.06309687 r_loss:  4.4170885 nll:  8.5807085
+epoch  370 kl_loss:  0.005362676 r_loss:  4.425405 nll:  8.601748
+epoch  375 kl_loss:  0.019267185 r_loss:  4.429923 nll:  8.585404
+epoch  380 kl_loss:  0.0013493394 r_loss:  4.419597 nll:  8.582027
+epoch  385 kl_loss:  0.008295171 r_loss:  4.4347854 nll:  8.575737
+epoch  390 kl_loss:  0.008786648 r_loss:  4.420663 nll:  8.57992
+epoch  395 kl_loss:  0.07797631 r_loss:  4.4284472 nll:  8.583769
